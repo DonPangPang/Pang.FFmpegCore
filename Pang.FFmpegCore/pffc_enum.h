@@ -39,9 +39,11 @@ enum AudioType
  * @param audio 
  * @return char* 
  */
-char *get_audio_type_name(enum AudioType audio);
+char *pffc_get_audio_type_name(enum AudioType audio);
 
-int get_audio_type_size()
+int pffc_get_audio_type_size();
+
+int pffc_get_audio_type_size()
 {
 	return audio_types_size;
 }
@@ -52,11 +54,11 @@ int get_audio_type_size()
  * @param audio 
  * @return char* 
  */
-char *get_audio_type_name(enum AudioType audio)
+char *pffc_get_audio_type_name(enum AudioType audio)
 {
 	if(audio >= audio_types_size)
 	{
-		return audio_types[get_audio_type_size()];
+		return audio_types[pffc_get_audio_type_size()];
 	}
 	return audio_types[audio];
 }

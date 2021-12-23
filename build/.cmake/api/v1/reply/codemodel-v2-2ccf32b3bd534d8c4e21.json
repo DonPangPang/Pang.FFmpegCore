@@ -10,6 +10,7 @@
 					[
 						1
 					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -24,6 +25,7 @@
 				},
 				{
 					"build" : "Pang.FFmpegCore",
+					"jsonFile" : "directory-Pang.FFmpegCore-Debug-32da3e37d2ddc3010d32.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -67,14 +69,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Pang.FFmpegCore::@83721d263539fc6d6650",
-					"jsonFile" : "target-Pang.FFmpegCore-Debug-25cd092e8f51115cdbf3.json",
+					"jsonFile" : "target-Pang.FFmpegCore-Debug-43e3b8c72d7359b881a8.json",
 					"name" : "Pang.FFmpegCore",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-63397d12df70a0de065c.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-80c34da49c043042a0f2.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -89,6 +91,7 @@
 					[
 						1
 					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -103,6 +106,7 @@
 				},
 				{
 					"build" : "Pang.FFmpegCore",
+					"jsonFile" : "directory-Pang.FFmpegCore-Release-32da3e37d2ddc3010d32.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -146,14 +150,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Pang.FFmpegCore::@83721d263539fc6d6650",
-					"jsonFile" : "target-Pang.FFmpegCore-Release-55bc277b3a9d0175494d.json",
+					"jsonFile" : "target-Pang.FFmpegCore-Release-f76793a41c38d6b99aca.json",
 					"name" : "Pang.FFmpegCore",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-63397d12df70a0de065c.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-80c34da49c043042a0f2.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -168,6 +172,7 @@
 					[
 						1
 					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -182,6 +187,7 @@
 				},
 				{
 					"build" : "Pang.FFmpegCore",
+					"jsonFile" : "directory-Pang.FFmpegCore-MinSizeRel-32da3e37d2ddc3010d32.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -225,14 +231,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Pang.FFmpegCore::@83721d263539fc6d6650",
-					"jsonFile" : "target-Pang.FFmpegCore-MinSizeRel-e95e4c47b9f5a10d015b.json",
+					"jsonFile" : "target-Pang.FFmpegCore-MinSizeRel-e426fb15f2932b4f36ef.json",
 					"name" : "Pang.FFmpegCore",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-63397d12df70a0de065c.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-80c34da49c043042a0f2.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -247,6 +253,7 @@
 					[
 						1
 					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -261,6 +268,7 @@
 				},
 				{
 					"build" : "Pang.FFmpegCore",
+					"jsonFile" : "directory-Pang.FFmpegCore-RelWithDebInfo-32da3e37d2ddc3010d32.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -304,14 +312,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Pang.FFmpegCore::@83721d263539fc6d6650",
-					"jsonFile" : "target-Pang.FFmpegCore-RelWithDebInfo-59e803dcfdf19a8171da.json",
+					"jsonFile" : "target-Pang.FFmpegCore-RelWithDebInfo-099ec024ff6a94cb43eb.json",
 					"name" : "Pang.FFmpegCore",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-63397d12df70a0de065c.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-80c34da49c043042a0f2.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -321,12 +329,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Pang.FFmpegCore/build",
-		"source" : "E:/Pang.FFmpegCore"
+		"build" : "D:/GitHubWorkspace/Pang.FFmpegCore/build",
+		"source" : "D:/GitHubWorkspace/Pang.FFmpegCore"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 2
+		"minor" : 3
 	}
 }

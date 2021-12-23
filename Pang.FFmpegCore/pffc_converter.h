@@ -15,7 +15,11 @@
 
 #include "Pang.FFmpegCore.h"
 
-struct ConvertAudio* pcm_audio_convert();
+struct ConvertAudioPacket* pffc_pcm_audio_convert(byte[]);
 
+struct ConvertAudioPacket* pffc_pcm_audio_convert(byte buffer[])
+{
+    return NULL;
+}
 
 #endif // !__PFFC_CONVERTER_H__

@@ -8,13 +8,13 @@
 struct ConvertAudio;
 
 /**
- * @brief 返回数据结构体
+ * @brief 重采样后的数据
  * 
  */
-struct ConvertAudio
+struct ConvertAudioPacket
 {
     uint8_t* data;
     int size;
-} AudioBlock;
+} ConvertAudioPacket;
 
 #endif // !__PFFC_STRUCTS_H__

@@ -1,4 +1,4 @@
-# Install script for directory: E:/Pang.FFmpegCore/Pang.FFmpegCore
+# Install script for directory: D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

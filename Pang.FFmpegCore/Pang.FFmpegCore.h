@@ -8,6 +8,9 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+// TODO: 宏定义
+#define byte uint8_t
+
 // TODO: 在此处引用程序需要的其他标头。
 
 #include <libavcodec/avcodec.h>
@@ -18,7 +21,9 @@
 #include <libavutil/samplefmt.h>
 #include <libavutil/opt.h>
 
+// TODO: 自定义头文件
 #include "pffc_converter.h"
 #include "pffc_encoder.h"
 #include "pffc_enum.h"
 #include "pffc_structs.h"
+

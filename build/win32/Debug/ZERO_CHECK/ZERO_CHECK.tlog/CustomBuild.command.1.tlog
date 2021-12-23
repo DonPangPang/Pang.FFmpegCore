@@ -1,6 +1,6 @@
-^E:\PANG.FFMPEGCORE\BUILD\CMAKEFILES\DB46F94D6D9BB76EB48D3FDF58073ADE\GENERATE.STAMP.RULE
+^D:\GITHUBWORKSPACE\PANG.FFMPEGCORE\BUILD\CMAKEFILES\A5F0C1402A8CBC83E9B2BE0F092A4E1B\GENERATE.STAMP.RULE
 setlocal
-"D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Pang.FFmpegCore -BE:/Pang.FFmpegCore/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Pang.FFmpegCore/build/Pang.FFmpegCore.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/GitHubWorkspace/Pang.FFmpegCore -BD:/GitHubWorkspace/Pang.FFmpegCore/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

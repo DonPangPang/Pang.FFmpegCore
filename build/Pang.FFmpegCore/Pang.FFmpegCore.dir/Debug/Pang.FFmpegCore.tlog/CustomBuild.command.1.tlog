@@ -1,6 +1,6 @@
-^E:\PANG.FFMPEGCORE\PANG.FFMPEGCORE\CMAKELISTS.TXT
+^D:\GITHUBWORKSPACE\PANG.FFMPEGCORE\PANG.FFMPEGCORE\CMAKELISTS.TXT
 setlocal
-"D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Pang.FFmpegCore -BE:/Pang.FFmpegCore/build --check-stamp-file E:/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/GitHubWorkspace/Pang.FFmpegCore -BD:/GitHubWorkspace/Pang.FFmpegCore/build --check-stamp-file D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -9,3 +9,6 @@ build/Pang.FFmpegCore/Pang.FFmpegCore.dir/Debug/Pang.FFmpegCore.vcxproj.FileList
 build/Pang.FFmpegCore/Pang.FFmpegCore.dir/Debug/vc142.pdb
 build/win32/Debug/ZERO_CHECK/ZERO_CHECK.Build.CppClean.log
 build/win32/Debug/ZERO_CHECK/ZERO_CHECK.vcxproj.FileListAbsolute.txt
+
+.fake
+.ionide

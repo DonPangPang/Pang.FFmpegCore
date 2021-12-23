@@ -1,4 +1,4 @@
-# Install script for directory: E:/Pang.FFmpegCore
+# Install script for directory: D:/GitHubWorkspace/Pang.FFmpegCore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Pang.FFmpegCore/build/Pang.FFmpegCore/cmake_install.cmake")
+  include("D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Pang.FFmpegCore/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/GitHubWorkspace/Pang.FFmpegCore/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

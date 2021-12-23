@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "pang.ffmpegcore.h": "c"
+        "*.cjson": "jsonc",
+        "*.wxs": "javascript",
+        "*.wxss": "css",
+        "frame.h": "c"
     }
 }

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Pang.FFmpegCore/Debug/Pang.FFmpegCore.exe"
+			"path" : "Pang.FFmpegCore/MinSizeRel/Pang.FFmpegCore.exe"
 		},
 		{
-			"path" : "Pang.FFmpegCore/Debug/Pang.FFmpegCore.pdb"
+			"path" : "Pang.FFmpegCore/MinSizeRel/Pang.FFmpegCore.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,14 +59,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 4,
-					"path" : "E:/Pang.FFmpegCore/Pang.FFmpegCore/../include"
+					"path" : "D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../include"
 				}
 			],
 			"language" : "C",
@@ -88,16 +88,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:X86 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:E:\\Pang.FFmpegCore\\Pang.FFmpegCore\\..\\lib",
+				"fragment" : "-LIBPATH:D:\\GitHubWorkspace\\Pang.FFmpegCore\\Pang.FFmpegCore\\..\\lib",
 				"role" : "libraryPath"
 			},
 			{
