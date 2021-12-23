@@ -11,6 +11,7 @@
  */
 
 #pragma once
+#pragma warning (disable:4879 4090)
 
 #ifndef __AUDIO_ENUM_H__
 #define __AUDIO_ENUM_H__
@@ -57,7 +58,7 @@ char *get_audio_type_name(enum AudioType audio)
 {
 	if(audio >= audio_types_size)
 	{
-		return "111";
+		return audio_types[get_audio_type_size()];
 	}
 	return audio_types[audio];
 }
