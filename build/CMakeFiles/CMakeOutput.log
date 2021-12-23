@@ -9,7 +9,7 @@ The output was:
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2021/12/23 15:28:16。
+生成启动时间为 2021/12/23 16:01:33。
 节点 1 上的项目“E:\Pang.FFmpegCore\build\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
@@ -35,7 +35,7 @@ FinalizeBuildStatus:
     0 个警告
     0 个错误
 
-已用时间 00:00:00.85
+已用时间 00:00:00.78
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2021/12/23 15:28:17。
+生成启动时间为 2021/12/23 16:01:34。
 节点 1 上的项目“E:\Pang.FFmpegCore\build\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
@@ -80,7 +80,7 @@ FinalizeBuildStatus:
     0 个警告
     0 个错误
 
-已用时间 00:00:00.71
+已用时间 00:00:00.81
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,28 +92,28 @@ The CXX compiler identification is MSVC, found in "E:/Pang.FFmpegCore/build/CMak
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: E:/Pang.FFmpegCore/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9821b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_8ca19.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30138 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9821b.dir\Debug\\" /Fd"cmTC_9821b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
-  cmTC_9821b.vcxproj -> E:\Pang.FFmpegCore\build\CMakeFiles\CMakeTmp\Debug\cmTC_9821b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ca19.dir\Debug\\" /Fd"cmTC_8ca19.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_8ca19.vcxproj -> E:\Pang.FFmpegCore\build\CMakeFiles\CMakeTmp\Debug\cmTC_8ca19.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: E:/Pang.FFmpegCore/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a40fb.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e1fb8.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30138 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a40fb.dir\Debug\\" /Fd"cmTC_a40fb.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_a40fb.vcxproj -> E:\Pang.FFmpegCore\build\CMakeFiles\CMakeTmp\Debug\cmTC_a40fb.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1fb8.dir\Debug\\" /Fd"cmTC_e1fb8.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_e1fb8.vcxproj -> E:\Pang.FFmpegCore\build\CMakeFiles\CMakeTmp\Debug\cmTC_e1fb8.exe
 
 
 
