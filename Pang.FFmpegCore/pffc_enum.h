@@ -1,5 +1,5 @@
 ﻿/**
- * @file audio_enum.h
+ * @file pffc_enum.h
  * @author Powers (powertle@outlook.com)
  * @brief 
  * @version 0.1
@@ -11,13 +11,11 @@
  */
 
 #pragma once
-#pragma warning (disable:4879 4090)
 
-#ifndef __AUDIO_ENUM_H__
-#define __AUDIO_ENUM_H__
+#ifndef __PFFC_ENUM_H__
+#define __PFFC_ENUM_H__
 
-#include <stdio.h>
-#include <string.h>
+#include "Pang.FFmpegCore.h"
 
 enum AudioType;
 
@@ -63,4 +61,4 @@ char *get_audio_type_name(enum AudioType audio)
 	return audio_types[audio];
 }
 
-#endif // ! AUDIO_ENUM_H
+#endif // ! __PFFC_ENUM_H__

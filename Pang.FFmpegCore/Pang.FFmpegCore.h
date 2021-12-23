@@ -2,6 +2,7 @@
 // 或项目特定的包含文件。
 
 #pragma once
+#pragma warning (disable:4879 4090 4819)
 
 #include <stdio.h>
 #include <stdint.h>
@@ -16,3 +17,8 @@
 #include <libavutil/frame.h>
 #include <libavutil/samplefmt.h>
 #include <libavutil/opt.h>
+
+#include "pffc_converter.h"
+#include "pffc_encoder.h"
+#include "pffc_enum.h"
+#include "pffc_structs.h"
