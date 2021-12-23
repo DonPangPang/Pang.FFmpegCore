@@ -10,22 +10,56 @@
  * 对于音频格式的枚举
  */
 
-
 #pragma once
 
-#ifndef AUDIO_ENUM_H
-#define AUDIO_ENUM_H
+#ifndef __AUDIO_ENUM_H__
+#define __AUDIO_ENUM_H__
 
 #include <stdio.h>
+#include <string.h>
 
 enum AudioType;
 
+const int audio_types_size = 3;
+
+const char* audio_types[] = 
+{
+	"pcm", "aac", "mp3", "not found"
+};
+
 enum AudioType
 {
-	AUDIO_TYPE_PCM,
-	AUDIO_TYPE_AAC,
-	AUDIO_TYPE_MP3
+	AUDIO_TYPE_PCM = 0,
+	AUDIO_TYPE_AAC = 1,
+	AUDIO_TYPE_MP3 = 2
 } AudioType;
 
+/**
+ * @brief Get the audio type name object
+ * 
+ * @param audio 
+ * @return char* 
+ */
+char *get_audio_type_name(enum AudioType audio);
+
+int get_audio_type_size()
+{
+	return audio_types_size;
+}
+
+/**
+ * @brief Get the audio type name object
+ * 
+ * @param audio 
+ * @return char* 
+ */
+char *get_audio_type_name(enum AudioType audio)
+{
+	if(audio >= audio_types_size)
+	{
+		return "111";
+	}
+	return audio_types[audio];
+}
 
 #endif // ! AUDIO_ENUM_H
