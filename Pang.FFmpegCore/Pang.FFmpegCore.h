@@ -30,6 +30,7 @@
 #include <libavutil/frame.h>
 #include <libavutil/samplefmt.h>
 #include <libavutil/opt.h>
+#include <libswresample/swresample.h>
 
 // TODO: 自定义头文件
 #include "pffc_enum.h"

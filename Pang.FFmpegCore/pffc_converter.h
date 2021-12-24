@@ -15,20 +15,29 @@
 
 #include "Pang.FFmpegCore.h"
 
-/**
- * @brief 用来转码PCM
- * 
- * @return struct ConvertAudioPacket* 
- */
-struct ConvertAudioPacket* pffc_pcm_audio_convert(byte[]);
+void init_converter(AVCodecContext *, ulong, enum AVSampleFormat, int);
 
 /**
- * @brief 用来转码PCM
+ * @brief pcm s16le to fltp
  * 
- * @param buffer 
- * @return struct ConvertAudioPacket* 
+ * @return byte* 
  */
-struct ConvertAudioPacket* pffc_pcm_audio_convert(byte buffer[])
+byte *pcm_s16le_convert_to_fltp(byte[]);
+
+/**
+ * @brief pcm s16le to fltp
+ * 
+ * @return byte* 
+ */
+byte *pcm_s16le_convert_to_fltp2(byte *);
+
+
+void init_converter(AVCodecContext* codec_ctx, ulong source_ch_layout, enum AVSampleFormat source_sample_fmt, int source_sample_rate)
+{
+
+}
+
+byte *pcm_s16le_convert_to_fltp(byte input[])
 {
     return NULL;
 }
