@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|win32">
@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2D7C9829-009C-302A-82FB-B43F4258BA46}</ProjectGuid>
+    <ProjectGuid>{0B9D49E1-FEEA-3AB3-A559-786EE5B06094}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>win32</Platform>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Pang.FFmpegCore.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Pang.FFmpegCore</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Pang.FFmpegCore.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Pang.FFmpegCore</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Pang.FFmpegCore.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Pang.FFmpegCore</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Pang.FFmpegCore.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Pang.FFmpegCore</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -98,15 +98,15 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,12 +115,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib;D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib;E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/Debug/Pang.FFmpegCore.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/Debug/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/Debug/Pang.FFmpegCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/Debug/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -139,17 +139,17 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,12 +158,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib;D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib;E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/Release/Pang.FFmpegCore.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/Release/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/Release/Pang.FFmpegCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/Release/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -182,17 +182,17 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,12 +201,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib;D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib;E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/MinSizeRel/Pang.FFmpegCore.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/MinSizeRel/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/MinSizeRel/Pang.FFmpegCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/MinSizeRel/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -226,15 +226,15 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Pang.FFmpegCore\Pang.FFmpegCore\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -243,12 +243,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib;D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib;E:/Pang.FFmpegCore/Pang.FFmpegCore/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/RelWithDebInfo/Pang.FFmpegCore.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/RelWithDebInfo/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/RelWithDebInfo/Pang.FFmpegCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Pang.FFmpegCore/build/Pang.FFmpegCore/RelWithDebInfo/Pang.FFmpegCore.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -256,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\CMakeLists.txt">
-      <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\Pang.FFmpegCore\Pang.FFmpegCore\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/GitHubWorkspace/Pang.FFmpegCore -BD:/GitHubWorkspace/Pang.FFmpegCore/build --check-stamp-file D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
+"D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Pang.FFmpegCore -BE:/Pang.FFmpegCore/build --check-stamp-file E:/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -269,11 +269,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/GitHubWorkspace/Pang.FFmpegCore -BD:/GitHubWorkspace/Pang.FFmpegCore/build --check-stamp-file D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
+"D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Pang.FFmpegCore -BE:/Pang.FFmpegCore/build --check-stamp-file E:/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,11 +282,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/GitHubWorkspace/Pang.FFmpegCore -BD:/GitHubWorkspace/Pang.FFmpegCore/build --check-stamp-file D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
+"D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Pang.FFmpegCore -BE:/Pang.FFmpegCore/build --check-stamp-file E:/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -295,11 +295,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule D:/GitHubWorkspace/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/Pang.FFmpegCore/Pang.FFmpegCore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/GitHubWorkspace/Pang.FFmpegCore -BD:/GitHubWorkspace/Pang.FFmpegCore/build --check-stamp-file D:/GitHubWorkspace/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
+"D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Pang.FFmpegCore -BE:/Pang.FFmpegCore/build --check-stamp-file E:/Pang.FFmpegCore/build/Pang.FFmpegCore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -308,17 +308,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Pang.FFmpegCore\build\Pang.FFmpegCore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\Pang.FFmpegCore.c" />
-    <ClInclude Include="D:\GitHubWorkspace\Pang.FFmpegCore\Pang.FFmpegCore\Pang.FFmpegCore.h" />
+    <ClCompile Include="E:\Pang.FFmpegCore\Pang.FFmpegCore\Pang.FFmpegCore.c" />
+    <ClInclude Include="E:\Pang.FFmpegCore\Pang.FFmpegCore\Pang.FFmpegCore.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\GitHubWorkspace\Pang.FFmpegCore\build\ZERO_CHECK.vcxproj">
-      <Project>{AB3FD66E-FF10-3F16-BBF2-BA4BECC27223}</Project>
+    <ProjectReference Include="E:\Pang.FFmpegCore\build\ZERO_CHECK.vcxproj">
+      <Project>{7FBC6CAE-A45F-3D57-AE1B-71591D379A69}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -21,7 +21,7 @@ enum AudioType;
 
 const int audio_types_size = 3;
 
-const char* audio_types[] = 
+const byte* audio_types[] = 
 {
 	"pcm", "aac", "mp3", "not found"
 };
@@ -37,9 +37,9 @@ enum AudioType
  * @brief Get the audio type name object
  * 
  * @param audio 
- * @return char* 
+ * @return byte* 
  */
-char *pffc_get_audio_type_name(enum AudioType audio);
+byte *pffc_get_audio_type_name(enum AudioType audio);
 
 int pffc_get_audio_type_size();
 
@@ -52,9 +52,9 @@ int pffc_get_audio_type_size()
  * @brief Get the audio type name object
  * 
  * @param audio 
- * @return char* 
+ * @return byte* 
  */
-char *pffc_get_audio_type_name(enum AudioType audio)
+byte *pffc_get_audio_type_name(enum AudioType audio)
 {
 	if(audio >= audio_types_size)
 	{

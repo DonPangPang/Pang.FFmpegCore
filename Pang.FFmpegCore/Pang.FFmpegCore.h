@@ -10,6 +10,16 @@
 
 // TODO: 宏定义
 #define byte uint8_t
+#define ulong uint64_t
+#define uint uint32_t
+
+#define bool int
+#define boolean int
+
+#define TRUE 1
+#define true 1
+#define FALSE 0
+#define false 0 
 
 // TODO: 在此处引用程序需要的其他标头。
 
@@ -26,4 +36,5 @@
 #include "pffc_encoder.h"
 #include "pffc_enum.h"
 #include "pffc_structs.h"
+#include "pffc_helper.h"
 

@@ -6,6 +6,7 @@
 #include "Pang.FFmpegCore.h"
 
 struct ConvertAudio;
+struct EncodeAudio;
 
 /**
  * @brief 重采样后的数据
@@ -13,8 +14,15 @@ struct ConvertAudio;
  */
 struct ConvertAudioPacket
 {
-    uint8_t* data;
+    byte* data;
     int size;
 } ConvertAudioPacket;
+
+struct EncodeAudio
+{
+    byte* data;
+    int size;
+} EncodeAudioPacket;
+
 
 #endif // !__PFFC_STRUCTS_H__

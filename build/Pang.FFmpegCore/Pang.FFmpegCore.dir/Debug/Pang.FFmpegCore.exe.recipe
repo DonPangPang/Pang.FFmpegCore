@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\GitHubWorkspace\Pang.FFmpegCore\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>E:\Pang.FFmpegCore\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\GitHubWorkspace\Pang.FFmpegCore\build\Pang.FFmpegCore\Debug\Pang.FFmpegCore.exe</FullPath>
+      <FullPath>E:\Pang.FFmpegCore\build\Pang.FFmpegCore\Debug\Pang.FFmpegCore.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -15,8 +15,19 @@
 
 #include "Pang.FFmpegCore.h"
 
+/**
+ * @brief 用来转码PCM
+ * 
+ * @return struct ConvertAudioPacket* 
+ */
 struct ConvertAudioPacket* pffc_pcm_audio_convert(byte[]);
 
+/**
+ * @brief 用来转码PCM
+ * 
+ * @param buffer 
+ * @return struct ConvertAudioPacket* 
+ */
 struct ConvertAudioPacket* pffc_pcm_audio_convert(byte buffer[])
 {
     return NULL;

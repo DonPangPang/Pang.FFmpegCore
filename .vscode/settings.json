@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.cjson": "jsonc",
-        "*.wxs": "javascript",
-        "*.wxss": "css",
-        "frame.h": "c"
-    }
-}

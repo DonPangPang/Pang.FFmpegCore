@@ -9,9 +9,11 @@ int main()
 	enum AVCodecID id = AV_CODEC_ID_AAC;
 	enum AudioType tp = AUDIO_TYPE_PCM;
 
-	printf("%s\n", pffc_get_audio_type_name(tp));
-	printf("%d\n", pffc_get_audio_type_size());
-
 	printf("Hello World\n");
+
+	int a = 6;
+	int* p = &a;
+	int res = *p * *p;
+	printf("%d", res);
 	return 0;
 }
