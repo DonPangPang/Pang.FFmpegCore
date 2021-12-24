@@ -32,6 +32,8 @@ AVCodecContext *codec_ctx_g = NULL;
 AVFrame *frame_g = NULL;
 AVPacket *pkt_g = NULL;
 
+int frame_bytes_g;
+
 // TODO: 全局变量
 
 static void init_encoder(enum AudioType audio_type)
@@ -128,10 +130,39 @@ static void init_encoder(enum AudioType audio_type)
         fprintf(stderr, "Could not allocate the frame.\n");
         exit(1);
     }
+    frame_g->nb_samples = codec_ctx_g->frame_size;
+    frame_g->format = codec_ctx_g->sample_fmt;
+    frame_g->channel_layout = codec_ctx_g->channel_layout;
+    frame_g->channels = av_get_channel_layout_nb_channels(frame_g->channel_layout);
+    printf("frame nb_samples: %d\n", frame_g->nb_samples);
+    printf("frame sample_fmt: %s\n", av_get_sample_fmt_name(frame_g->format));
+    printf("frame channel_layout: %lu\n", frame_g->channel_layout);
+
+    int ret;
+
+    ret = av_frame_get_buffer(frame_g, 0);
+    if(ret < 0)
+    {
+        fprintf(stderr, "Could not allocate audio data buffers.\n");
+        exit(1);
+    }
+
+    frame_bytes_g = av_get_bytes_per_sample(frame_g->format \
+        * frame_g->channels \
+        * frame_g->nb_samples);
+    printf("frame_bytes: %d\n", frame_bytes_g);
 }
 
-static bool encode(AVCodecContext *ctx, AVFrame *frame, AVPacket *pkt, byte *output)
+static bool encode(byte input[], int input_size, byte *output)
 {
+    byte* pcm_buf = (byte*)malloc(frame_bytes_g);
+    if(!pcm_buf)
+    {
+        printf("pcm_buf malloc failed.");
+        return false;
+    }
+
+    byte* pcm_temp_buf = malloc(frame_bytes_g);
     return false;
 }
 
