@@ -1,3 +1,13 @@
+/**
+ * @file pffc_helper.h
+ * @author Powers (powertle@outlook.com)
+ * @brief 用于检查各项参数是否正常
+ * @version 0.1
+ * @date 2021-12-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #pragma once
 #ifndef __PFFC_HELPER_H__
 #define __PFFC_HELPER_H__
@@ -27,7 +37,7 @@ static bool check_sample_rate(const AVCodec*, const int);
  * 
  * @return bool 
  */
-static bool check_channel_layout(const AVCodec, const ulong);
+static bool check_channel_layout(const AVCodec*, const ulong);
 
 /**
  * @brief Get the adts header object
@@ -107,6 +117,13 @@ static bool check_channel_layout(const AVCodec* codec, const ulong channel_layou
     return false;
 }
 
+/**
+ * @brief Get the adts header object
+ * 
+ * @param ctx 
+ * @param adts_header 
+ * @param aac_length 
+ */
 static void get_adts_header(AVCodecContext* ctx, byte* adts_header, int aac_length)
 {
     /**

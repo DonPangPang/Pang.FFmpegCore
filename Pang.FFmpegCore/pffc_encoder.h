@@ -17,7 +17,7 @@ static void init_encoder();
  * 
  * @return bool 
  */
-static bool encode(AVCodecContext *, AVFrame *, AVPacket *, byte *);
+static bool encode(byte[], int, byte*);
 /**
  * @brief 释放资源
  * 
@@ -36,6 +36,11 @@ int frame_bytes_g;
 
 // TODO: 全局变量
 
+/**
+ * @brief 初始化解码器
+ * 
+ * @param audio_type 
+ */
 static void init_encoder(enum AudioType audio_type)
 {
     enum AVCodecId codec_id;
@@ -153,12 +158,21 @@ static void init_encoder(enum AudioType audio_type)
     printf("frame_bytes: %d\n", frame_bytes_g);
 }
 
+/**
+ * @brief 编码
+ * 
+ * @param input 
+ * @param input_size 
+ * @param output 
+ * @return true 
+ * @return false 
+ */
 static bool encode(byte input[], int input_size, byte *output)
 {
     byte* pcm_buf = (byte*)malloc(frame_bytes_g);
     if(!pcm_buf)
     {
-        printf("pcm_buf malloc failed.");
+        printf("pcm_buf malloc failed.\n");
         return false;
     }
 

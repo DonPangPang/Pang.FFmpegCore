@@ -2,7 +2,7 @@
 // 或项目特定的包含文件。
 
 #pragma once
-#pragma warning (disable:4879 4090 4819)
+#pragma warning (disable:4879 4090 4819 4477)
 
 #include <stdio.h>
 #include <stdint.h>
@@ -32,9 +32,13 @@
 #include <libavutil/opt.h>
 
 // TODO: 自定义头文件
-#include "pffc_converter.h"
-#include "pffc_encoder.h"
 #include "pffc_enum.h"
 #include "pffc_structs.h"
 #include "pffc_helper.h"
+#include "pffc_buffer_queue.h"
+
+#include "pffc_converter.h"
+#include "pffc_encoder.h"
+
+
 
