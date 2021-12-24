@@ -34,18 +34,18 @@ int get_frame_size();
  * @brief 初始化编码器
  * 
  */
-static void init_encoder();
+void init_encoder();
 /**
  * @brief 编码
  * 
  * @return bool 
  */
-static bool encode(byte[], int, byte *);
+bool encode(byte[], int, byte *);
 /**
  * @brief 释放资源
  * 
  */
-static void dispose();
+void dispose_encoder();
 
 // TODO: 函数声明
 
@@ -78,7 +78,7 @@ int get_frame_size()
  * 
  * @param audio_type 
  */
-static void init_encoder(enum AudioType audio_type)
+void init_encoder(enum AudioType audio_type)
 {
     enum AVCodecId codec_id;
     switch (audio_type)
@@ -208,7 +208,7 @@ static void init_encoder(enum AudioType audio_type)
  * @return true 
  * @return false 
  */
-static bool encode(byte input[], int input_size, byte *output)
+bool encode(byte input[], int input_size, byte *output)
 {
     int ret;
 
@@ -257,7 +257,7 @@ static bool encode(byte input[], int input_size, byte *output)
     return false;
 }
 
-static void dispose()
+void dispose_encoder()
 {
 }
 

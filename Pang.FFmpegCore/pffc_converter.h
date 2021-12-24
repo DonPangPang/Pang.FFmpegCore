@@ -31,15 +31,29 @@ byte *pcm_s16le_convert_to_fltp(byte[]);
  */
 byte *pcm_s16le_convert_to_fltp2(byte *);
 
+void dispose_converter();
+
+SwrContext* swr_ctx_g;
+
 
 void init_converter(AVCodecContext* codec_ctx, ulong source_ch_layout, enum AVSampleFormat source_sample_fmt, int source_sample_rate)
 {
-
+    
 }
 
 byte *pcm_s16le_convert_to_fltp(byte input[])
 {
     return NULL;
+}
+
+byte* pcm_s16le_convert_to_fltp2(byte* input)
+{
+
+}
+
+void dispose_converter()
+{
+
 }
 
 #endif // !__PFFC_CONVERTER_H__

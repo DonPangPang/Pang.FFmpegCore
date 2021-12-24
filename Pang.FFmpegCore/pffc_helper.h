@@ -23,27 +23,27 @@
  * 
  * @return bool 
  */
-static bool check_sample_fmt(const AVCodec*, enum AVSampleFormat);
+bool check_sample_fmt(const AVCodec*, enum AVSampleFormat);
 
 /**
  * @brief 检查该编码器是否支持该采样率
  * 
  * @return bool 
  */
-static bool check_sample_rate(const AVCodec*, const int);
+bool check_sample_rate(const AVCodec*, const int);
 
 /**
  * @brief 检查编码器是否支持该通道布局
  * 
  * @return bool 
  */
-static bool check_channel_layout(const AVCodec*, const ulong);
+bool check_channel_layout(const AVCodec*, const ulong);
 
 /**
  * @brief Get the adts header object
  * 
  */
-static void get_adts_header(AVCodecContext*, byte*, int);
+void get_adts_header(AVCodecContext*, byte*, int);
 
 // TODO: 函数声明
 
@@ -54,7 +54,7 @@ static void get_adts_header(AVCodecContext*, byte*, int);
  * @param sample_fmt 采样格式
  * @return bool 1:是 0:否
  */
-static bool check_sample_fmt(const AVCodec* codec, enum AVSampleFormat sample_fmt)
+bool check_sample_fmt(const AVCodec* codec, enum AVSampleFormat sample_fmt)
 {
     const enum AVSampleFormat *p = codec->sample_fmts;
 
@@ -76,7 +76,7 @@ static bool check_sample_fmt(const AVCodec* codec, enum AVSampleFormat sample_fm
  * @param sample_rate 采样率
  * @return bool 
  */
-static bool check_sample_rate(const AVCodec* codec, const int sample_rate)
+bool check_sample_rate(const AVCodec* codec, const int sample_rate)
 {
     const int* p = codec->supported_samplerates;
     while (*p != 0)
@@ -97,7 +97,7 @@ static bool check_sample_rate(const AVCodec* codec, const int sample_rate)
  * @param channel_layout 通道布局
  * @return bool 
  */
-static bool check_channel_layout(const AVCodec* codec, const ulong channel_layout)
+bool check_channel_layout(const AVCodec* codec, const ulong channel_layout)
 {
     const ulong* p = codec->channel_layouts;
     if(!p)
@@ -124,7 +124,7 @@ static bool check_channel_layout(const AVCodec* codec, const ulong channel_layou
  * @param adts_header 
  * @param aac_length 
  */
-static void get_adts_header(AVCodecContext* ctx, byte* adts_header, int aac_length)
+void get_adts_header(AVCodecContext* ctx, byte* adts_header, int aac_length)
 {
     /**
      * 0: 96000Hz
