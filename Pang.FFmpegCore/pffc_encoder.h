@@ -14,6 +14,13 @@
 void encoder_open();
 
 /**
+ * @brief Get the frame size object
+ * 
+ * @return int 
+ */
+int get_frame_size();
+
+/**
  * @brief 初始化编码器
  * 
  */
@@ -47,6 +54,11 @@ int frame_size_g;
 void encoder_open()
 {
     //init_encoder();
+}
+
+int get_frame_size()
+{
+    return frame_size_g;
 }
 
 /**
