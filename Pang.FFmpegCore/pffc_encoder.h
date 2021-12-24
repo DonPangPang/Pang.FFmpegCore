@@ -65,6 +65,7 @@ ulong pts_g = 0;
 
 void encoder_open()
 {
+    avcodec_register_all();
     //init_encoder();
 }
 
