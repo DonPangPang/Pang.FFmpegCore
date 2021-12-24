@@ -8,6 +8,12 @@
 // TODO: 函数声明
 
 /**
+ * @brief 打开编码器
+ * 
+ */
+void encoder_open();
+
+/**
  * @brief 初始化编码器
  * 
  */
@@ -34,7 +40,14 @@ AVPacket *pkt_g = NULL;
 
 int frame_bytes_g;
 
+int frame_size_g;
+
 // TODO: 全局变量
+
+void encoder_open()
+{
+    //init_encoder();
+}
 
 /**
  * @brief 初始化解码器
@@ -156,6 +169,8 @@ static void init_encoder(enum AudioType audio_type)
         * frame_g->channels \
         * frame_g->nb_samples);
     printf("frame_bytes: %d\n", frame_bytes_g);
+
+    frame_size_g = codec_ctx_g->frame_size;
 }
 
 /**
